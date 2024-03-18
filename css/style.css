@@ -1,0 +1,80 @@
+body {
+  background: #ccffcc;
+  font-family: "open_sansregular";
+  font-size: 18px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form p{
+    font-family: 'open_sansbold';
+    margin-bottom: 20px;
+    color: #CC00FF;
+  }
+.input-group {
+  width: 57%;
+}
+.table {
+  width: 57%;
+}
+.style_table {
+  display: flex;
+  justify-content: center;
+
+}
+.delete a {
+  color: #fff;
+  background: #FF99CC;
+  text-decoration: none;
+  padding: 1px 6px;
+  border-radius: 3px;
+ 
+}
+.delete{
+    text-align: center;
+}
+.main_menu_brend{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 65%;
+       display: flex;
+ justify-content:center;
+ margin-left: 16%;
+}
+.main_menu_brend h1{
+    font-family: 'open_sansbold';
+    font-size: 20px;
+    border: solid 2px #339933;
+   padding: 16px 33px;
+   width: 58%;
+   border-radius: 5px;
+}
+tr th{
+    font-family: 'open_sansbold';
+    text-align: center;
+
+}
+.form-control:focus {
+    color: #212529;
+    background-color: #FFFFCC;
+    border-color: #339933;
+    outline: 0;
+    box-shadow: none;
+}
+.btn-outline-secondary:active {
+    color: #fff;
+    background-color: #FF99CC;
+    border-color: #339933;
+}
+.btn-outline-secondary:hover {
+    color: #fff;
+    background-color: #FF6699;
+    border-color: #339933;
+}
+.btn-outline-secondary {
+    color: #000;
+    background-color: #FF99CC;
+    border-color: #339933;
+}
